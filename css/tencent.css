@@ -92,8 +92,11 @@ body {
   margin-top: 20px;
   position: relative;
 }
-
-.course-new {
+.course-item-img{
+  width: 295px;
+  height: 170px;
+}
+.course-tag_new {
   width: 44px;
   height: 26px;
   background: rgba(15, 199, 0, 1);
@@ -109,13 +112,13 @@ body {
   top: 0px;
 }
 
-.course-rank {
+.course-tag_level {
   position: absolute;
   top: 0px;
   right: 10px;
 }
 
-.course-tag {
+.course-tag_claim {
   width: 68px;
   height: 26px;
   font-size: 12px;
@@ -131,11 +134,11 @@ body {
   top: 134px;
 }
 
-.course-tag:hover {
+.course-tag_claim:hover {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.course-tag-two {
+.course-tag_claim-two {
   left: 99px;
 }
 
@@ -155,7 +158,7 @@ body {
   }
 }
 
-.course-item-text {
+.course-item-title {
   width: 246px;
   font-size: 20px;
   font-weight: 600;
@@ -165,7 +168,7 @@ body {
   margin-left: 25px;
 }
 
-.course-item-subtext {
+.course-item-subtitle {
   width: 244px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -176,7 +179,7 @@ body {
   margin-left: 25px;
 }
 
-.course-note-container {
+.course-item-info {
   margin-top: 12px;
   margin-left: 25px;
   display: flex;
@@ -203,5 +206,17 @@ body {
   font-weight: 400;
   color: rgba(153, 153, 153, 1);
   line-height: 20px;
+  margin-right: 8px;
+}
+.have-icon::before{
+  content: "";
+  display: block;
+  float: left;
+  background: url(./../images/tencent/time.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 20px;
   margin-right: 8px;
 }
