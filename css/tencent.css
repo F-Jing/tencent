@@ -21,6 +21,13 @@ body {
 .banner-img {
   width: 1440px;
   margin: 0 auto;
+  position: relative;
+}
+.tencent-logo{
+  width: 50px;
+  position: absolute;
+  top: 83px;
+  left: 123px;
 }
 .nav-section {
   height: 57px;
@@ -199,7 +206,7 @@ body {
   margin-right: 8px;
 }
 
-.course-note {
+.course-info-number {
   height: 20px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
